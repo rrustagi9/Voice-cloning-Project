@@ -3,10 +3,11 @@ This project us based on the repository which is an implementation of Transfer L
 
 SV2TTS is a three-stage deep learning framework that allows to create a numerical representation of a voice from a few seconds of audio, and to use it to condition a text-to-speech model trained to generalize to new voices.
 Datasets
+
 For playing with the toolbox alone, I only recommend downloading LibriSpeech/train-clean-100. Extract the contents as <datasets_root>/LibriSpeech/train-clean-100 where <datasets_root> is a directory of your choosing. Other datasets are supported in the toolbox, see here. You're free not to download any dataset, but then you will need your own data as audio files or you will have to record it with the toolbox.
 
 
-#setup
+# setup
 1. Install Requirements
 Python 3.6 or 3.7 is needed to run the toolbox.
 
